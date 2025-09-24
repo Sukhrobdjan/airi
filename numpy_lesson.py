@@ -45,3 +45,23 @@ print("3D array:", tree_dim.ndim) # 3D array: 3
 print("3D array shakli:", tree_dim.shape) # 3D array shakli: (2, 3, 5)
 print("3D array turi:", tree_dim.dtype) # 3D array turi: int
 print(tree_dim)
+
+
+"""zeros()"""
+z = np.zeros((3, 4, 8)) # 3 qator, 4 ustun
+print("Zeroes:\n", z)
+print("Zeros type:", z.dtype) # Zeros type: float64
+"--------------------------------"
+
+"""Ones"""
+d = np.ones((2, 5, 10))
+print("Ones:\n", d)
+"--------------------------------"
+
+"""arange()"""
+new_array = np.arange(2, 25, 4)
+# numpy.arange(start, stop, step, dtype=None, *, like=None)
+print("New array:\n", new_array)
+"--------------------------------"
+"""linspace()"""
+# numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, *, like=None)
