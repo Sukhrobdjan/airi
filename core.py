@@ -12,3 +12,14 @@ name_len = len(name)
 print(name_len)
 gap = name[3:8]
 print(gap)
+
+str_example = "Python String"
+name = "J" + str_example[1:5]
+name = "J" + str_example[1: len(str_example)] + "!"
+name = "J" + str_example[1:]
+name = 'Suxrob'
+message = f" Hello {name}"
+nama
+
+print(name)
+print(message)
